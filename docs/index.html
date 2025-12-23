@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>日本IT行业现状和趋势调查报告</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="全面分析日本IT行业的现状与发展趋势，为有意了解日本IT市场、寻求在日本IT行业发展机会的读者提供参考。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- 主题样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <!-- 暗色主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" 
+        title="docsify-darklight-theme" type="text/css"/>
+  
+  <style>
+    /* 自定义样式 */
+    :root {
+      --base-font-size: 16px;
+      --theme-color: #42a5f5;
+      --theme-color-dark: #1976d2;
+    }
+    
+    /* 优化中文字体 */
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    }
+    
+    /* 优化表格样式 */
+    table {
+      display: block;
+      width: 100%;
+      overflow: auto;
+      border-collapse: collapse;
+      margin: 1em 0;
+    }
+    
+    table th {
+      background-color: var(--theme-color);
+      color: white;
+      font-weight: bold;
+      padding: 12px;
+    }
+    
+    table td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    /* 优化代码块 */
+    pre {
+      border-radius: 8px;
+    }
+    
+    /* 优化引用块 */
+    blockquote {
+      border-left: 4px solid var(--theme-color);
+      padding-left: 1em;
+      margin-left: 0;
+      background-color: #f5f5f5;
+      padding: 10px 15px;
+      border-radius: 4px;
+    }
+    
+    /* 优化标题 */
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: 600;
+      margin-top: 1.5em;
+      margin-bottom: 0.8em;
+    }
+    
+    /* Mermaid 图表居中 */
+    .mermaid {
+      text-align: center;
+      margin: 2em 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  
+  <script>
+    window.$docsify = {
+      // 基本配置
+      name: '日本IT行业现状和趋势',
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      
+      // 搜索配置
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索文档...',
+        noData: '没有找到结果',
+        depth: 6,
+        hideOtherSidebarContent: false
+      },
+      
+      // 分页导航
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      
+      // 字数统计
+      count: {
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+      
+      // 复制代码
+      copyCode: {
+        buttonText: '复制',
+        errorText: '错误',
+        successText: '已复制'
+      },
+      
+      // 暗色主题配置
+      darklightTheme: {
+        siteFont : 'PT Sans',
+        defaultTheme : 'light',
+        codeFontFamily : 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize : '16px',
+        dark: {
+          accent: '#42a5f5',
+          toogleBackground : '#ffffff',
+          background: '#1e1e1e',
+          textColor: '#e0e0e0',
+          codeTextColor : '#ffffff',
+          codeBackgroundColor : '#2d2d2d',
+          borderColor : '#404040',
+          blockQuoteColor : '#858585',
+          highlightColor : '#d22778',
+          sidebarSublink : '#b4b4b4',
+          codeTypeColor : '#ffffff',
+          coverBackground : 'linear-gradient(to left bottom, hsl(211, 100%, 85%) 0%,hsl(169, 100%, 85%) 100%)',
+          toogleImage : 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
+        },
+        light: {
+          accent: '#42a5f5',
+          toogleBackground : '#091a28',
+          background: '#ffffff',
+          textColor: '#34495e',
+          codeTextColor : '#525252',
+          codeBackgroundColor : '#f8f8f8',
+          borderColor : 'rgba(0, 0, 0, 0.07)',
+          blockQuoteColor : '#858585',
+          highlightColor : '#d22778',
+          sidebarSublink : '#b4b4b4',
+          codeTypeColor : '#091a28',
+          coverBackground : 'linear-gradient(to left bottom, hsl(211, 100%, 85%) 0%,hsl(169, 100%, 85%) 100%)',
+          toogleImage : 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
+        }
+      }
+    }
+  </script>
+  
+  <!-- Docsify 核心 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <!-- 复制代码插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  
+  <!-- 分页导航插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
+  <!-- 字数统计插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
+  
+  <!-- Mermaid 图表支持 -->
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-mermaid@2/dist/docsify-mermaid.js"></script>
+  
+  <!-- 暗色主题插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+  
+  <!-- Emoji 支持 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  
+  <!-- 外链在新标签打开 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+</body>
+</html>
