@@ -81,6 +81,7 @@ python -m http.server 3000
 
 ```
 ├── docs/                    # 网站文件
+│   ├── .nojekyll           # GitHub Pages 配置
 │   ├── index.html          # Docsify 配置
 │   ├── README.md           # 网站首页
 │   ├── 01_日本IT市场概况.md
@@ -89,7 +90,9 @@ python -m http.server 3000
 │   ├── 04_外国人在日本IT就业.md
 │   ├── 05_行业机会与热门领域.md
 │   ├── 06_数字化转型趋势.md
-│   └── 07_未来展望.md
+│   ├── 07_未来展望.md
+│   ├── 08_特别篇_AI崛起与外国IT从业者的命运推演.md
+│   └── 使用说明.md
 ├── 00_项目大纲.md          # 项目大纲
 └── README.md               # 本文件
 ```
